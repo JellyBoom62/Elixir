@@ -1,9 +1,25 @@
 @font-face {
   font-family: CD;
+  src: url(fonts/ClashDisplay-Variable.woff2);
+  font-weight: 500;
+}
+@font-face {
+  font-family: CD;
   src: url(fonts/ClashDisplay-Variable.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: CD;
+  src: url(fonts/ClashDisplay-Variable.woff);
+  font-weight: 700;
+}
+@font-face {
+  font-family: CD;
+  src: url(fonts/ClashDisplay-Variable.eot);
+  font-weight: 400;
 }
 body {
-  font-family: CD;
+  font-family: CD, sans-serif;
   font-size: 16px;
 }
 :root {
@@ -11,4 +27,5 @@ body {
   --c-brand: #4e57d4;
   --c-brand-light: #6970dd;
   --c-brand-rgb: 78, 87, 212;
+  --ff: CD;
 }
