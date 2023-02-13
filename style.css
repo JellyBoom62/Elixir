@@ -29,3 +29,6 @@ body {
   --c-brand-rgb: 78, 87, 212;
   --ff: CD;
 }
+.item {
+  background-color: red;
+}
