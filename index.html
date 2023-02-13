@@ -12,6 +12,134 @@
   </head>
 
   <body>
+    <svg style="display: none">
+      <symbol id="logo-dark" viewBox="0 0 97 25">
+        <path
+          d="M20.852 25V20.14H5.84V15.28H20.312V10.456H5.84V5.74H20.852V0.879999H0.44V25H20.852ZM28.6916 25V0.879999H23.2916V25H28.6916ZM36.9181 5.128V0.879999H31.5181V5.128H36.9181ZM36.9181 25V6.964H31.5181V25H36.9181ZM44.6767 25L49.3207 18.952H49.6087L54.3967 25H60.9847L53.7847 16.108V15.784L60.9847 6.964H54.4687L49.8247 13.048H49.5367L44.7487 6.964H38.1607L45.3607 15.892V16.18L38.1607 25H44.6767ZM67.6798 5.128V0.879999H62.2798V5.128H67.6798ZM67.6798 25V6.964H62.2798V25H67.6798ZM75.9064 25V14.56C75.9064 12.292 76.7704 11.176 79.1824 11.176C81.3784 11.176 82.1704 12.04 82.1704 14.02V15.892H87.5704V12.904C87.5704 9.376 85.9144 6.604 81.8824 6.604C78.2464 6.604 76.3384 8.836 75.8344 11.752H75.5104V6.964H70.5064V25H75.9064Z"
+          fill="#202636" />
+        <path d="M96.1139 25V18.7H89.1659V25H96.1139Z" fill="#375EC1" />
+      </symbol>
+    </svg>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <svg class="logo-dark">
+            <use xlink:href="#logo-dark"></use>
+          </svg>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reviews">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+          </ul>
+          <a href="" class="btn btn-brand text-white ms-lg-3">DOWNLOAD</a>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+    <!-- Home -->
+    <section id="home" class="home">
+      <div class="container d-flex flex-column justify-content-center align-items-center text-center">
+        <div class="home-title text-white">WELCOME TO ELIXIR</div>
+        <div class="home-subtitle text-white mb-3">
+          WE ARE TEAM OF TALENTED DESIGNERS MAKING WEBSITES WITH BOOTSTRAP
+        </div>
+        <div class="d-flex align-items-center justify-content-between gap-3">
+          <div class="btn btn-brand text-white">GET STARTED</div>
+          <div class="btn btn-white">OUR PORTFOLIO</div>
+        </div>
+      </div>
+    </section>
+    <!-- Home END -->
+    <!-- About -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="section-header mx-auto d-flex flex-column justify-content-center align-items-center text-center">
+          <div class="section-title mb-5">About us</div>
+          <p class="section-subtitle text-secondary">
+            We love to craft digital experiances for brands rather than crap and more lorem ipsums and do crazy skills
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <img src="img/about.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-start p-lg-5 gap-3">
+            <div class="about__title-2">About Elixir</div>
+            <p class="section-subtitle text-secondary mb-5">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quo reiciendis ad.
+            </p>
+            <div class="d-flex gap-3 mb-4">
+              <div class="iconbox">
+                <i class="ri-mail-send-fill"></i>
+              </div>
+              <div class="d-flex flex-column">
+                <div class="item-title">We are Awesome</div>
+                <div class="section-subtitle text-secondary">
+                  Consectetur adipisicing elit. Corporis nesciunt aut temporibus!
+                </div>
+              </div>
+            </div>
+            <div class="d-flex gap-3 mb-4">
+              <div class="iconbox">
+                <i class="ri-user-5-fill"></i>
+              </div>
+              <div class="d-flex flex-column">
+                <div class="item-title">We are Awesome</div>
+                <div class="section-subtitle text-secondary">
+                  Consectetur adipisicing elit. Corporis nesciunt aut temporibus!
+                </div>
+              </div>
+            </div>
+            <div class="d-flex gap-3">
+              <div class="iconbox">
+                <i class="ri-rocket-2-fill"></i>
+              </div>
+              <div class="d-flex flex-column">
+                <div class="item-title">We are Awesome</div>
+                <div class="section-subtitle text-secondary">
+                  Consectetur adipisicing elit. Corporis nesciunt aut temporibus!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About END -->
     <script src="bootstrap/bootstrap.bundle.min.js"></script>
   </body>
 </html>
