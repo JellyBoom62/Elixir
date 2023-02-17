@@ -98,7 +98,6 @@ body {
   background-color: var(--c-brand);
 }
 .section-subtitle {
-  font-weight: 400;
   line-height: 1.7;
   transition: 0.5s;
 }
