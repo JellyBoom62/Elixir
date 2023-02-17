@@ -221,28 +221,29 @@ a {
 }
 .service__item1 {
   grid-area: item1;
-  min-height: 500px;
 }
 .service__item2 {
   grid-area: item2;
-  min-height: 300px;
 }
 .service__item3 {
   grid-area: item3;
-  min-height: 500px;
 }
 .service__item4 {
   grid-area: item4;
-  min-height: 500px;
 }
 .service__item5 {
   grid-area: item5;
-  min-height: 300px;
 }
 .service__item6 {
   grid-area: item6;
-  min-height: 300px;
 }
+.img__long {
+  height: 500px;
+}
+.img__short {
+  height: 300px;
+}
+
 .service__item__imgs {
   background-position: center;
   background-size: cover;
@@ -269,8 +270,8 @@ a {
   background-image: url(/img/project-6.jpg);
 }
 .service__item {
-  overflow: hidden;
   position: relative;
+  overflow: hidden;
 }
 .service__item:hover .service__item__imgs {
   transform: scale(1.1);
