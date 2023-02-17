@@ -148,7 +148,10 @@ body {
   color: white;
 }
 .service-card:hover .service-card__inner .iconbox {
+  position: relative;
+  z-index: 3;
   color: white;
+  background-color: var(--c-brand-light);
 }
 .service-card:hover::before {
   width: 100%;
@@ -173,4 +176,54 @@ body {
   font-size: 22px;
   font-weight: 600;
   text-transform: uppercase;
+}
+.lb {
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+.sb {
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+}
+.lb-1 {
+  background-image: url(img/project-1.jpg);
+}
+.sb-1 {
+  background-image: url(img/project-2.jpg);
+}
+.lb-2 {
+  background-image: url(img/project-4.jpg);
+}
+.sb-2 {
+  background-image: url(img/project-3.jpg);
+}
+.lb-3 {
+  background-image: url(img/project-5.jpg);
+}
+.sb-3 {
+  background-image: url(img/project-6.jpg);
+}
+.image {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.image .iconbox {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  color: white;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--c-brand);
+  opacity: 0;
+  transition: 0.5s;
+}
+.image:hover .iconbox {
+  top: 50%;
+  opacity: 1;
 }
