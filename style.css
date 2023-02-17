@@ -178,14 +178,24 @@ body {
   text-transform: uppercase;
 }
 .lb {
-  height: 500px;
+  height: 100%;
   background-position: center;
   background-size: cover;
+  transition: 0.5s;
+}
+.lb-wrapper {
+  height: 500px;
+  overflow: hidden;
 }
 .sb {
-  height: 300px;
+  height: 100%;
   background-position: center;
   background-size: cover;
+  transition: 0.5s;
+}
+.sb-wrapper {
+  height: 300px;
+  overflow: hidden;
 }
 .lb-1 {
   background-image: url(img/project-1.jpg);
@@ -210,6 +220,12 @@ body {
   display: inline-block;
   width: 100%;
 }
+.image:hover .lb {
+  transform: scale(1.1);
+}
+.image:hover .sb {
+  transform: scale(1.1);
+}
 .image .iconbox {
   position: absolute;
   width: 60px;
@@ -226,4 +242,112 @@ body {
 .image:hover .iconbox {
   top: 50%;
   opacity: 1;
+}
+.reviews {
+  background-color: #f8f9fa;
+}
+.review {
+  position: relative;
+  box-shadow: var(--box-shadow);
+}
+.review::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  bottom: 0;
+  left: 30px;
+  transform: rotate(45deg) translateY(50%);
+}
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.review-subtitle {
+  font-size: 14px;
+  color: var(--c-brand);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.person {
+  overflow: hidden;
+  height: 100%;
+  transition: 0.5s;
+}
+.person-img {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+.img-box {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  z-index: 1;
+}
+.img-box-info {
+  background-color: var(--c-brand);
+  position: absolute;
+  bottom: -10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  opacity: 0;
+  z-index: 2;
+}
+.info-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+.img-box:hover .img-box-info {
+  bottom: 5%;
+  opacity: 1;
+}
+.img-box:hover .person-img {
+  transform: scale(1.1);
+}
+
+.contact {
+  position: relative;
+  background: linear-gradient(rgba(var(--c-brand-rgb), 0.8), rgba(var(--c-brand-rgb), 0.8)), url(img/counter.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contact::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  min-height: 30%;
+  bottom: 0;
+  left: 0;
+  background-color: #f8f9fa;
+  z-index: 1;
+}
+.section-title-2 {
+  position: relative;
+  font-size: 60px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.section-title-2::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background-color: white;
+}
+.form-control {
+  border-radius: 0;
 }
