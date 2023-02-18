@@ -307,6 +307,9 @@ a {
 .review__stars {
   padding: 4px 0;
 }
+.review__header {
+  box-shadow: var(--box-shadow);
+}
 .review__header::before {
   content: "";
   position: absolute;
@@ -320,7 +323,6 @@ a {
 .review__img__wrapper {
   display: inline-block;
   border-radius: 50%;
-  overflow: hidden;
   width: 75px;
   height: 75px;
 }
@@ -345,7 +347,7 @@ a {
 .member {
   background-position: center;
   background-size: cover;
-  padding: 240px 100px;
+  height: 500px;
   position: relative;
   transition: var(--transition);
 }
@@ -384,10 +386,13 @@ a {
   position: absolute;
   content: "";
   width: 100%;
-  min-height: 70vh;
+  height: 600px;
   top: 0;
   left: 0;
   background: linear-gradient(rgba(var(--c-brand-rgb), 0.8), rgba(var(--c-brand-rgb), 0.8)), url(/img/counter.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .about2::before {
   content: "";
