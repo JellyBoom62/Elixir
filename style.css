@@ -13,11 +13,7 @@
   src: url(fonts/ClashDisplay-Variable.woff);
   font-weight: 700;
 }
-@font-face {
-  font-family: CD;
-  src: url(fonts/ClashDisplay-Variable.eot);
-  font-weight: 400;
-}
+
 body {
   font-family: CD, sans-serif;
   font-size: 16px;
