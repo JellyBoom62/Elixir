@@ -13,11 +13,6 @@
   src: url(fonts/ClashDisplay-Variable.woff);
   font-weight: 700;
 }
-@font-face {
-  font-family: CD;
-  src: url(fonts/ClashDisplay-Variable.eot);
-  font-weight: 400;
-}
 body {
   font-family: CD, sans-serif;
   font-size: 16px;
@@ -57,7 +52,7 @@ a {
   background-color: var(--c-brand-light);
 }
 .hero {
-  background: linear-gradient(rgba(var(--c-brand-rgb), 0.507), rgba(var(--c-brand-rgb), 0.438)), url(/img/hero-1.jpg);
+  background: linear-gradient(rgba(var(--c-brand-rgb), 0.507), rgba(var(--c-brand-rgb), 0.438)), url(img/hero-1.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -197,7 +192,7 @@ a {
   background-color: var(--c-brand-light);
 }
 .counter {
-  background: linear-gradient(rgba(var(--c-brand-rgb), 0.8), rgba(var(--c-brand-rgb), 0.8)), url(/img/counter.jpg);
+  background: linear-gradient(rgba(var(--c-brand-rgb), 0.8), rgba(var(--c-brand-rgb), 0.8)), url(img/counter.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -252,22 +247,22 @@ a {
   transition: var(--transition);
 }
 .service__item__img1 {
-  background-image: url(/img/project-1.jpg);
+  background-image: url(img/project-1.jpg);
 }
 .service__item__img2 {
-  background-image: url(/img/project-3.jpg);
+  background-image: url(img/project-3.jpg);
 }
 .service__item__img3 {
-  background-image: url(/img/project-5.jpg);
+  background-image: url(img/project-5.jpg);
 }
 .service__item__img4 {
-  background-image: url(/img/project-4.jpg);
+  background-image: url(img/project-4.jpg);
 }
 .service__item__img5 {
-  background-image: url(/img/project-2.jpg);
+  background-image: url(img/project-2.jpg);
 }
 .service__item__img6 {
-  background-image: url(/img/project-6.jpg);
+  background-image: url(img/project-6.jpg);
 }
 .service__item {
   position: relative;
@@ -334,13 +329,13 @@ a {
   font-weight: 520;
 }
 .member1 {
-  background-image: url(/img/person-1.jpg);
+  background-image: url(img/person-1.jpg);
 }
 .member2 {
-  background-image: url(/img/person-2.jpg);
+  background-image: url(img/person-2.jpg);
 }
 .member3 {
-  background-image: url(/img/person-3.jpg);
+  background-image: url(img/person-3.jpg);
 }
 .member {
   background-position: center;
@@ -387,7 +382,7 @@ a {
   min-height: 70vh;
   top: 0;
   left: 0;
-  background: linear-gradient(rgba(var(--c-brand-rgb), 0.8), rgba(var(--c-brand-rgb), 0.8)), url(/img/counter.jpg);
+  background: linear-gradient(rgba(var(--c-brand-rgb), 0.8), rgba(var(--c-brand-rgb), 0.8)), url(img/counter.jpg);
 }
 .about2::before {
   content: "";
@@ -424,13 +419,13 @@ a {
   transform: scale(1.1);
 }
 .blog1 {
-  background-image: url(/img/blog-post-1.jpg);
+  background-image: url(img/blog-post-1.jpg);
 }
 .blog2 {
-  background-image: url(/img/blog-post-2.jpg);
+  background-image: url(img/blog-post-2.jpg);
 }
 .blog3 {
-  background-image: url(/img/blog-post-3.jpg);
+  background-image: url(img/blog-post-3.jpg);
 }
 
 .blog__title {
